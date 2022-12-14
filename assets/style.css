@@ -1,0 +1,197 @@
+
+@font-face {
+    font-family: 'Longreach';
+    src: url('DK\ Longreach.otf');
+}
+
+@font-face {
+    font-family: 'Gemstone';
+    src: url('Gemstone.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto.ttf');
+}
+
+
+@font-face {
+    font-family: 'Exo2';
+    src: url('Exo2.ttf');
+}
+
+h1 {
+    font-family: 'Longreach', 'Roboto', Arial;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    color: white;
+    font-size: 80px;
+}
+
+p {
+    font-size: 20px;
+}
+
+* {
+    font-family: Roboto, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    margin: 0;
+
+}
+
+#header {
+    width: 100% !important;
+    padding-bottom: 50px;
+    margin-top: 6% !important;
+}
+
+#yellowI {
+    left: 0 !important;
+    padding: 10px !important;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);;
+    margin-left: 0;
+}
+
+#yellowI h2 {
+    font-size: 40px;
+    text-align: left;
+    background: none;
+}
+
+#yellowI a {
+    float: right !important;
+    text-align: right !important;
+    font-size: 25px;
+}
+
+#yellow {
+    left: 0 !important;
+    padding: 10px !important;
+    background-image: linear-gradient( 135deg, #FDEB71 10%, #F8D800 100%);
+    margin-left: 0;
+}
+
+#yellow h2 {
+    font-size: 40px;
+    text-align: left;
+    background: none;
+}
+
+#yellow a {
+    float: right !important;
+    text-align: right !important;
+    font-size: 25px;
+}
+
+#cucumber {
+    left: 0 !important;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    margin-left: 0;
+    height: 100px;
+}
+
+
+
+
+#container #special {
+    display: inline-block !important;
+}
+
+#special {
+    display: inline-block !important;
+    height: 650px;
+    width: 400px;
+    border: 1px black;
+    border-style: groove;
+    border-radius: 5px;
+    margin: 5px;
+    margin-top: 2%;
+    padding: 5px;
+    text-align: center;
+    margin-left: 5%;
+    overflow: hidden;
+}
+
+#special img {
+    width: 100%;
+    height: 300px;
+    padding: 0 !important;
+}
+
+input {
+    width: 75%;
+}
+
+
+
+
+
+.navbar {
+    overflow: hidden;
+    background-image: linear-gradient( 135deg, #FDEB71 10%, #F8D800 100%);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #101010;
+}
+  
+.navbar a {
+    float: right;
+    display: block;
+    color: #101010;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar p {
+    float: left;
+    display: block;
+    color: #101010;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.navbar a:hover {
+    background: #f1f1f1;
+    color: black;
+}
+    
+.main {
+    padding: 16px;
+    margin-bottom: 30px;
+}
+
+#iframe-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+  
+iframe {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+} 
+
+@media screen and (max-width: 1200px) {
+    iframe {
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    iframe {
+        margin-top: 20px;
+    }
+}

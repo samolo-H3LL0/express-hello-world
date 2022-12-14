@@ -1,0 +1,149 @@
+
+@font-face {
+    font-family: 'Longreach';
+    src: url('DK\ Longreach.otf');
+}
+
+@font-face {
+    font-family: 'Gemstone';
+    src: url('Gemstone.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto.ttf');
+}
+
+h1 {
+    font-family: 'Longreach', 'Roboto', Arial;
+    color: white;
+    margin: 0;
+    padding: 5px;
+}
+h3 {
+    padding-left: 20px;
+}
+
+form {
+    padding-left: 20px;
+}
+
+textarea {
+    resize: none;
+    width: 400px;
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+* {
+    font-family: Roboto, Helvetica, sans-serif;
+    text-align: start;
+}
+
+body {
+    background: whitesmoke;
+    margin: 0;
+    font-size: x-large;
+}
+
+input {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+button {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+#header {
+    width: 100% !important;
+}
+
+#yellow {
+    left: 0 !important;
+    padding: 10px !important;
+    background-color: yellow;
+    margin-left: 0;
+}
+
+#yellow h2 {
+    font-size: 40px;
+    text-align: left;
+}
+
+#yellow a {
+    float: right !important;
+    text-align: right !important;
+    font-size: 25px;
+}
+
+
+#container #special {
+    display: inline-block !important;
+}
+
+#special {
+    display: inline-block !important;
+    height: 500px;
+    width: 400px;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 5%;
+    overflow: hidden;
+}
+
+#special img {
+    width: 100%;
+    height: 200px;
+}
+
+
+
+
+
+
+.navbar {
+    overflow: hidden;
+    background-image: linear-gradient( 135deg, #FDEB71 10%, #F8D800 100%);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #101010;
+}
+  
+.navbar a {
+    float: right;
+    display: block;
+    color: #101010;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.navbar a:hover {
+    background: #f1f1f1;
+    color: black;
+}
+    
+.main {
+    padding: 16px;
+    margin-bottom: 30px;
+}
+
+#right {
+    margin-top: 5%;
+}
+
+#rightP {
+    margin-top: 3%;
+}

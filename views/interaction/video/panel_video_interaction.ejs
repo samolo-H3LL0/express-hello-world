@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../../components/head.ejs') %>
+    <link rel="stylesheet" href="panels.css">
+</head>
+<body>
+    <%- include('../../components/menu.ejs') %>
+    <div id="rightP">
+        <h1 style="font-family: Roboto; -webkit-text-stroke: none !important; color: white; margin-right: 0 !important; font-size: 30px; background-color: black; margin: 0 !important; width: 100%;">Welcome to video panel</h1>
+        <h3>Please insert a valid youtube link</h3>
+        <form action="/upload_video" method="POST" enctype="multipart/form-data">
+            <%= warning %>
+            <input type="text" name="url" id="url" />
+            <button type="submit" >Upload video</button>
+        </form> 
+    </div>
+</body>
+</html>

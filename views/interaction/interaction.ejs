@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../components/head.ejs') %>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+    </style>
+    <%- include('../components/menu.ejs') %>
+
+    <div id="header">
+        <h1>The interaction function <img src="favicon.png" height="75" width="75"> </h1>
+        <p style="font-size: 25px;">Welcome to the interaction function webpage. Here you will find videos, facts and optic ilussions.</p>
+    </div>
+    <div id="yellowI">
+        <a href="/admin_interaction" style="float: right;">Edit</a>
+        <h2 id="yellow">Interaction function: facts</h2>
+        <br>
+        <div id="container">
+            <%- interaction %>
+        </div>
+        <a href="/admin_video_interaction" style="float: right;">Edit</a>
+        <h2 id="yellow">Interaction function: videos</h2>
+        <div id="iframe-container">
+            <%- videos %>
+        </div>
+    </div>  
+    <div id="cucumber">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../components/head.ejs') %>
+    <link rel="stylesheet" href="panels.css">
+</head>
+<body>
+    <%- include('../components/menu.ejs') %>
+    <div id="right">
+        <h1 style="font-family: Roboto; -webkit-text-stroke: none; color: black;">Welcome to editor's key login</h1>
+        <h2>What is this page?</h3>
+        <p>This is the page where you can login to upload info. A key is provided by the webmasters. Ask them <br> for a key if you want to edit!</p>
+        <%= warning %>
+        <form action="/login" method="POST" enctype="multipart/form-data">
+            <input type="text" id="login" name="login" />
+            <button>Login</button>
+        </form>
+    </div>
+</body>
+</html>
